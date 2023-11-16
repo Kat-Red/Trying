@@ -1,0 +1,70 @@
+body{
+    margin: 3%;
+}
+
+*{
+    font-family:'Lexend Deca';
+}
+@import url(https://fonts.googleapis.com/css2?family=Lexend+Deca);
+@import url(https://fonts.googleapis.com/css2?family=Big+Shoulders+Display);
+
+.container{
+    display: grid;
+    width: 90vw;
+    justify-content: center;
+    align-self: center;
+    
+    }
+
+.sedans{
+    background: hsl(31, 77%, 52%);
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.suvs{
+    background:  hsl(184, 100%, 22%);
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.luxury{
+    background:  hsl(179, 100%, 13%);
+    color: hsla(0, 0%, 100%, 0.75);
+}
+h1{
+    font-family:'Big Shoulders Display';
+    font-size: 3.5em;    
+    color:white;
+}
+.i{
+    padding: 10%;
+    border-radius: 2%;
+}
+
+p{
+    font-size: 1.3em;
+    padding: 5% 0px;
+}
+
+button{
+    border-radius: 50px;
+    padding: 3% 12%;
+    margin: 3% 5%;
+}
+.luxury button{
+    color:  hsl(179, 100%, 13%);
+}
+.suvs button{
+    color:  hsl(184, 100%, 22%);
+}
+
+.sedans button{
+    color: hsl(31, 77%, 52%);
+}
+button:hover{
+    background: hsla(0, 0%, 0%, 0.0);
+    color: white;
+}
+.con{
+    margin: 5%;
+}
+
